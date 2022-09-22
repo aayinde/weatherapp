@@ -10,6 +10,7 @@ use Framework\Routing\RouteCollection;
 App::router()->serve(null, static function (RouteCollection $routes) : void {
     $routes->namespace('App\Controllers', [
         $routes->get('/', 'Home::index', 'home'),
+        $routes->post('/checkweather', 'Home::checkWeather', 'checkWeather'),
     ]);
     $routes->notFound(static fn () => not_found());
 });

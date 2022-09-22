@@ -13,6 +13,6 @@
  */
 return [
     'default' => [
-        'key' => sodium_base642bin('Gxl6wolkdPNHldGjihEmrYIgHmkVjWOmJe/eVAVQlZk=', SODIUM_BASE64_VARIANT_ORIGINAL),
+        'key' => sodium_base642bin('Gxl6wolkdPNHldGjihEmrYIgHmkVjWOmJe/eVAVQlZk=', \SODIUM_BASE64_VARIANT_ORIGINAL),
     ],
 ];
