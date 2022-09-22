@@ -1,5 +1,16 @@
 This Project was created using the Aplus Framework App Project
-# Aplus Framework App Project
+# WeatherApp 
+
+This App By demonstrating the implementation of  web development frameworks on public data sources.
+**Technologies;**
+RESTAPI
+JSON
+JQuery
+PHP
+Aplus-Framework
+OOP
+Support mulitlanguage
+
 
 - [Home](https://aplus-framework.com/packages/app)
 - [User Guide](https://docs.aplus-framework.com/guides/projects/app/index.html)
@@ -7,10 +18,7 @@ This Project was created using the Aplus Framework App Project
 
 ## Licensing
 
- `MIT`
-
-If you think about open-source your project,
-
+        ** MIT**
 
 
 
