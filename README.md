@@ -2,7 +2,7 @@ This Project was created using the Aplus Framework App Project
 # WeatherApp 
 
 This App By demonstrating the implementation of  web development frameworks on public data sources.
-**Technologies;**
+**Technologies;**<br>
 RESTAPI<br>
 JSON<br>
 JQuery<br>
