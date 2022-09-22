@@ -3,13 +3,15 @@ This Project was created using the Aplus Framework App Project
 
 This App By demonstrating the implementation of  web development frameworks on public data sources.
 **Technologies;**
-RESTAPI
-JSON
-JQuery
-PHP
-Aplus-Framework
-OOP
-Support mulitlanguage
+RESTAPI<br>
+JSON<br>
+JQuery<br>
+PHP<br>
+Aplus-Framework<br>
+OOP<br>
+Support mulitlanguage<br>
+RapidApi<br>
+OpenWeatherApi<br>
 
 
 - [Home](https://aplus-framework.com/packages/app)
