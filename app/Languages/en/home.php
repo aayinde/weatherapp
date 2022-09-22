@@ -16,5 +16,5 @@ return [
     'weather_humidity' => 'Humidity',
     'weather_info' => 'Weather Details',
     'weather_pressure' => 'Pressure',
-    'weather_wind' => 'Wind'
+    'weather_wind' => 'Wind',
 ];

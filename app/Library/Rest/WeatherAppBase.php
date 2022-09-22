@@ -15,66 +15,66 @@ abstract class WeatherAppBase
     /**
      * @var string
      */
-    private ?string $api_key = null;
+    private ?string $apiKey = null;
 
     /**
      * @var string
      */
-    private ?string $api_url = null;
+    private ?string $apiUrl = null;
 
     /**
      * @var string
      */
-    private ?string $api_host = null;
+    private ?string $apiHost = null;
 
     /**
      * @return string
      */
-    public function getApi_key()
+    public function getApiKey()
     {
-        return $this->api_key;
+        return $this->apiKey;
     }
 
     /**
      * @return string
      */
-    public function getApi_url()
+    public function getApiUrl()
     {
-        return $this->api_url;
+        return $this->apiUrl;
     }
 
     /**
      * @return string
      */
-    public function getApi_host()
+    public function getApiHost()
     {
-        return $this->api_host;
+        return $this->apiHost;
     }
 
     /**
-     * @param string $api_key
+     * @param string $apiKey
      */
-    public function setApi_key($api_key) : self
+    public function setApiKey($apiKey) : self
     {
-        $this->api_key = $api_key;
+        $this->apiKey = $apiKey;
         return $this;
     }
 
     /**
-     * @param string $api_url
+     * @param string $apiUrl
      */
-    public function setApi_url($api_url) : self
+    public function setApiUrl($apiUrl) : self
     {
-        $this->api_url = $api_url;
+        $this->apiUrl = $apiUrl;
         return $this;
     }
 
     /**
-     * @param string $api_host
+     * @param string $apiHost
      */
-    public function setApi_host($api_host) : self
+    public function setApiHost($apiHost) : self
     {
-        $this->api_host = $api_host;
+        $this->apiHost = $apiHost;
         return $this;
     }
 }

@@ -18,31 +18,31 @@ final class OpenWeatherApi extends WeatherAppBase
     private PhpCurl $objCurl;
 
     /**
-     * @param string $api_key
-     * @param string $api_host
-     * @param string $api_url
+     * @param string $apiKey
+     * @param string $apiHost
+     * @param string $apiUrl
      */
-    public function __construct(string $api_key = null, string $api_host = null, string $api_url = null)
+    public function __construct(string $apiKey = null, string $apiHost = null, string $apiUrl = null)
     {
-        $this->setApi_key($api_key)
-            ->setApi_host($api_host)
-            ->setApi_url($api_url);
+        $this->setApiKey($apiKey)
+        ->setApiHost($apiHost)
+        ->setApiUrl($apiUrl);
         $this->objCurl = new PhpCurl();
     }
 
     private function prepareData() : void
     {
-        $this->setApi_host('open-weather13.p.rapidapi.cfom');
-        $this->setApi_key('647c0a89bdmsh9bf74b25404334cp17c32ajsn88bb16af812d');
-        $this->setApi_url('https://open-weather13.p.rapidapi.com/city/');
-        $this->objCurl->setHeader('X-RapidAPI-Host', $this->getApi_host());
-        $this->objCurl->setHeader('X-RapidAPI-Key', $this->getApi_key());
+        $this->setApiHost('open-weather13.p.rapidapi.cfom');
+        $this->setApiKey('647c0a89bdmsh9bf74b25404334cp17c32ajsn88bb16af812d');
+        $this->setApiUrl('https://open-weather13.p.rapidapi.com/city/');
+        $this->objCurl->setHeader('X-RapidAPI-Host', $this->getApiHost());
+        $this->objCurl->setHeader('X-RapidAPI-Key', $this->getApiKey());
     }
 
     private function init() : void
     {
         $this->prepareData();
-        $this->objCurl->get($this->getApi_url() . $this->getCurrentCountry());
+        $this->objCurl->get($this->getApiUrl() . $this->getCurrentCountry());
     }
 
     /**
