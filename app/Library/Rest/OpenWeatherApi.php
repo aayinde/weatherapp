@@ -25,8 +25,8 @@ final class OpenWeatherApi extends WeatherAppBase
     public function __construct(string $apiKey = null, string $apiHost = null, string $apiUrl = null)
     {
         $this->setApiKey($apiKey)
-        ->setApiHost($apiHost)
-        ->setApiUrl($apiUrl);
+            ->setApiHost($apiHost)
+            ->setApiUrl($apiUrl);
         $this->objCurl = new PhpCurl();
     }
 
