@@ -11,7 +11,7 @@
 /**
  * The current environment name.
  */
-define('ENVIRONMENT', $_SERVER['ENVIRONMENT'] ?? 'production');
+define('ENVIRONMENT', $_SERVER['ENVIRONMENT'] ?? 'development');
 /**
  * Path to the root directory.
  */
@@ -48,3 +48,12 @@ define('VENDOR_DIR', ROOT_DIR . 'vendor' . \DIRECTORY_SEPARATOR);
  * Path to the aplus directory.
  */
 define('APLUS_DIR', VENDOR_DIR . 'aplus' . \DIRECTORY_SEPARATOR);
+
+/**
+ * Directory Separator.
+ */
+defined('DS') || define('DS', \DIRECTORY_SEPARATOR);
+/**
+ * Public Asset Path.
+ */
+defined('ASSET_DIR') || define('ASSET_DIR', 'assets' . DS);

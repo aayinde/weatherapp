@@ -6,6 +6,15 @@
  * file that was distributed with this source code.
  */
 return [
-    'description' => '¡La app se está ejecutando! ¡Sí!',
-    'title' => 'Aplus Framework',
+    'br' => 'Birmingham',
+    'cal' => 'California',
+    'description' => 'The Simplified Weather App',
+    'manc' => 'Manchester',
+    'ny' => 'New York',
+    'title' => 'Weather App',
+    'weather_cloudy' => 'Cloudy',
+    'weather_humidity' => 'Humidity',
+    'weather_info' => 'Weather Details',
+    'weather_pressure' => 'Pressure',
+    'weather_wind' => 'Wind'
 ];
