@@ -5,6 +5,9 @@ This Project was created using the Aplus Framework App Project
 - [User Guide](https://docs.aplus-framework.com/guides/projects/app/index.html)
 - [API Documentation](https://docs.aplus-framework.com/packages/app.html)
 
+[![tests](https://github.com/aayinde/weatherapp/app/actions/workflows/tests.yml/badge.svg)](https://github.com/aayinde/weatherapp/app/actions/workflows/tests.yml)
+[![pipeline](https://github.com/aayinde/weatherapp/projects/app/badges/master/pipeline.svg)](https://github.com/aayinde/weatherapp/projects/app/-/pipelines?scope=branches)
+
 
 
 ## Licensing
